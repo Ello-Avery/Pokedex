@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Codex</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/pokemonInfo.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="headerTitle">
+        <i class="bi bi-chat-square-text"></i>
+        <h1>ALL POKÉMON</h1>
+      </div>
+      <div class="headerId">
+        <img id="pokeball" src="./media/pokeball.svg" alt="Pokeball" />
+        <p>Number Registered:</p>
+        <p id="pokemonId">90</p>
+      </div>
+      <div class="headerUser">
+        <p id="currentTime">11:44</p>
+        <img id="userImage" src="/media/user.png" alt="User Image" />
+      </div>
+    </div>
+
+    <!-- Main Section  -->
+    <div class="main">
+      <div class="pokemonInfo">
+        <!-- Pokemon Heading -->
+        <div class="pokemonHeading">
+          <p class="pokemonNum">No. 006</p>
+          <p class="pokemonName">Charizard</p>
+          <p class="pokemonType">Flame Pokemon</p>
+          <div class="pokemonGender">
+            <i class="bi bi-gender-female"></i>
+            <i class="bi bi-gender-male"></i>
+          </div>
+        </div>
+        <!-- Pokemon Visuals -->
+
+        <div class="pokemonVisuals">
+          <div class="pokemonStats">
+            <div class="statCard">
+              <p class="statHeading">Height</p>
+              <p class="stat" id="height">5'7"</p>
+            </div>
+            <div class="statCard">
+              <p class="statHeading">Weight</p>
+              <p class="stat" id="weight">199.5 lbs</p>
+            </div>
+          </div>
+
+          <div class="pokemonView">
+            <button class="btnIcon">
+              <i class="bi bi-chevron-left"></i>
+              <div class="arrowKeyBox-left">L</div>
+            </button>
+            <img src="" alt="" id="pokemonSprite" />
+            <button class="btnIcon">
+              <div class="arrowKeyBox-right">R</div>
+              <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+
+          <div class="pokemonTypes">
+            <div class="type">
+              <img src="" alt="" />
+              <p>FIRE</p>
+            </div>
+            <div class="type">
+              <img src="" alt="" />
+              <p>FIRE</p>
+            </div>
+
+            <div class="forms">
+              <p>(Forms 1 of 4)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pokemon Ability Menu -->
+
+        <div class="abilityDefinitions">
+          <div class="abilityMenu">
+            <button class="btnIcon">
+              <i class="bi bi-chevron-left"></i>
+              <div class="arrowKeyBox-left">A</div>
+            </button>
+            <div class="abilities">
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
+            <button class="btnIcon">
+              <div class="arrowKeyBox-right">D</div>
+              <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+          <div class="abilityText"></div>
+        </div>
+      </div>
+
+      <!-- Pokemon List Side Menu -->
+      <div class="pokedex">
+        <div class="sideMenuHeader">
+          <p>Pokedex Number</p>
+        </div>
+        <div class="pokemonList">
+          <div class="pokemonItem">
+            <img class="listImg" src="./media/pokeball.svg" alt="" />
+            <div class="details">
+              <p class="listNumber">No. 004</p>
+              <p class="listName">Charmander</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

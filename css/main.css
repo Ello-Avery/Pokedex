@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background: #764ba2;
+  min-height: 100vh;
+  font-family: "Press Start 2P", "Courier New", monospace;
+  color: 9e99b5;
+  background: #ffffff;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(203, 185, 247, 1) 53%
+  );
+}
+
+.main {
+  display: flex;
+  height: calc(100vh - 65px);
+  margin-top: 5px;
+}
