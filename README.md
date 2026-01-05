@@ -2,7 +2,7 @@
 
 A modern, interactive Pokédex web application that displays detailed information about Pokémon using the PokéAPI. Features a retro-inspired design with smooth animations and keyboard navigation.
 
-![Pokémon Codex Preview](./media/Pokedex_Inspo.webp)
+![Pokémon Codex Preview](<media/Pokedex Inspo.webp>)
 
 ## Features
 
