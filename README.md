@@ -143,4 +143,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-Your Name - [@OnlyElliotAvery](https://x.com/OnlyElliotAvery/)
+Elliot Avery - [@OnlyElliotAvery](https://x.com/OnlyElliotAvery/)
