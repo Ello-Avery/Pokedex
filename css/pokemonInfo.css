@@ -87,6 +87,7 @@
 
 .pokemonView {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
@@ -106,19 +107,76 @@
   border: #333 2px solid;
   padding: 10px;
   border-radius: 16px 2px 2px 2px;
+  background: #f5f5f5;
 }
 
 .arrowKeyBox-right {
   border: #333 2px solid;
   padding: 10px;
   border-radius: 2px 16px 2px 2px;
+  background: #f5f5f5;
+}
+
+#pokemonSprite {
+  /* image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges; */
+  width: 400px;
+  height: 400px;
 }
 
 /* Pokemon Details / Abilities */
 
 .abilityDefinitions {
   display: flex;
+  flex-direction: column;
   flex: 2;
+  width: 90%;
+  align-items: center;
+}
+
+.abilityMenu {
+  display: flex;
+  align-items: center;
+}
+
+.abilityText {
+  width: 75%;
+  height: 150px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  overflow-x: scroll;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.abilities {
+  display: flex;
+  justify-content: center;
+}
+
+#abilityList {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
+
+#abilityList .abilityTag {
+  list-style: none;
+  display: flex;
+  font-weight: bold;
+  padding: 10px;
+  border: #333 2px solid;
+  border-radius: 4px;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+#abilityList .abilityTag.active {
+  background: #ffcc66;
 }
 
 /* Side Menu - Pokedex */
@@ -147,24 +205,32 @@
 
 .pokemonList {
   margin: 10px 5px;
-  width: 80%;
+  width: 90%;
+  overflow-y: scroll;
 }
 
 .pokemonItem {
   display: flex;
   border-radius: 50px;
   background-color: #ffac04;
-  height: 100px;
+  height: 80px;
   justify-content: space-around;
   align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 5px;
+  border: thin red solid;
 }
 
-.details {
-  display: flex;
-  flex-direction: column;
+.listNumber {
+}
+
+.listName {
+  font-weight: bold;
 }
 
 .listImg {
   height: 60px;
   width: 60px;
+  padding: 0;
 }
